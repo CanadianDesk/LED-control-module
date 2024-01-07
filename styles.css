@@ -1,0 +1,63 @@
+* {
+  margin: 2px;
+  padding: 2px;
+}
+
+.led-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+}
+
+.gif-large {
+    width: 1176px;
+    height: 168px;
+}
+
+.gif-small {
+  width: 1176px;
+  height: 128px;
+}
+
+#gif-1, #gif-3, #gif-4, #gif-6 {
+  width: 896px;
+  height: 128px;
+}
+/* Scale up the radio buttons */
+input[type="radio"] {
+  transform: scale(1.5); /* Increase the size by 50% */
+}
+
+
+.switches {
+  text-align: center;
+  font-size: 28px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;    
+  font-size: 12px;
+  font-weight: 600;
+  min-height: 30px; 
+  text-align: center;
+  text-decoration: none;
+  width: 100%
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
